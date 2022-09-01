@@ -1,0 +1,92 @@
+:root{
+    --color-principal: #6E07F3;
+    --color-blanco: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*Header*/
+.div__contenedor{
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10rem;
+}
+
+.header__img{
+    margin: auto 0;
+}
+.header__img a img{
+    height: 100px;    
+}
+
+.header__saludo{
+    margin: auto 0;
+}
+
+.header__saludo a{
+    color: var(--color-principal);
+    border: 1px solid var(--color-principal);
+    border-radius: 9999px;
+    padding: 10px;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+
+.header__saludo a:hover {
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+    
+}
+
+
+/*Main*/
+
+.contenedor__main:first-child {
+    height: 90vh;
+}
+
+.contenedor__main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100vh;
+}
+
+section{
+    width: min ( 1250px , 100% );
+}
+
+/*Seccion 1*/
+
+.seccion__1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.seccion__1 h1{
+    font-size: 50px;
+
+    
+}
+
+
+
+.img-avatar img:last-child {
+    width: 200px;
+    margin-bottom: 50px;
+}
+.img-escritorio img:last-child {
+    width: 1000px;
+}
